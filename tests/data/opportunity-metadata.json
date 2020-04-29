@@ -1,0 +1,231 @@
+{
+  "action": "create",
+  "active": "true",
+  "columnList": [
+    {
+      "captureHistory": "false",
+      "feedAttribute": "opportunityId",
+      "tableColumn": "CRM_OPPORTUNITY_ID",
+      "primaryKey": "true"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "opportunityType",
+      "tableColumn": "OPPORTUNITY_TYPE"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "relationshipUUID",
+      "tableColumn": "RELATIONSHIP_ID",
+      "useAsForeignKey": "true",
+      "foreignKeyTable": "RELATIONSHIP",
+      "foreignKeyColumn": "crm_relationship_id",
+      "foreignKeySelectColumn": "relationship_id"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "relationshipId",
+      "tableColumn": "CRM_RELATIONSHIP_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "repCode",
+      "tableColumn": "REPRESENTATIVE_CD"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "consultantRepCode",
+      "tableColumn": "CONSULTANT_REP_CD"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "primaryContact",
+      "tableColumn": "PRIMARY_CONTACT"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "territory",
+      "tableColumn": "TERRITORY"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "primaryConsultantCode",
+      "tableColumn": "PRIMARY_CONSULTANT_CD"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "currentStatus",
+      "tableColumn": "OPPORTUNITY_CURRENT_STATUS"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "estFundingDate",
+      "tableColumn": "ESTIMATED_FUNDING_DATE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "closeDate",
+      "tableColumn": "OPPORTUNITY_CLOSE_DATE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "closed",
+      "tableColumn": "IS_OPPORTUNITY_CLOSED"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "feeEstimate",
+      "tableColumn": "ESTIMATED_FEE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "origination",
+      "tableColumn": "ORIGINATION"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "relationshipType",
+      "tableColumn": "OPPORTUNITY_RELATIONSHIP_TYPE"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "primaryConsultantCodeUUID",
+      "tableColumn": "primary_consultant_id",
+      "useAsForeignKey": "true",
+      "foreignKeyTable": "CONSULTANT",
+      "foreignKeyColumn": "crm_consultant_id",
+      "foreignKeySelectColumn": "consultant_id"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "secondaryConsultantCode",
+      "tableColumn": "SECONDARY_CONSULTANT_CD"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "secondaryConsultantCodeUUID",
+      "tableColumn": "secondary_consultant_id",
+      "useAsForeignKey": "true",
+      "foreignKeyTable": "CONSULTANT",
+      "foreignKeyColumn": "crm_consultant_id",
+      "foreignKeySelectColumn": "consultant_id"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "awardDate",
+      "tableColumn": "AWARD_DATE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "notes",
+      "tableColumn": "NOTES"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "capacityTracking",
+      "tableColumn": "CAPACITY_TRACKING"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "capacityAmount",
+      "tableColumn": "CAPACITY_AMOUNT"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "capacityTrackingStrategy",
+      "tableColumn": "CAPACITY_TRACKING_STRATEGY"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "capacityNotes",
+      "tableColumn": "CAPACITY_NOTES"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "capacityRemovedDate",
+      "tableColumn": "CAPACITY_REMOVED_DATE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "capacityTrackingClosed",
+      "tableColumn": "CAPACITY_TRACKING_CLOSED"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "portfolioCode",
+      "tableColumn": "PORTFOLIO_CODE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "enterDate",
+      "tableColumn": "OPPORTUNITY_ENTER_DATE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "salesPhase",
+      "tableColumn": "SALES_PHASE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "targetAssets",
+      "tableColumn": "TARGET_ASSETS"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "estimatedRevenue",
+      "tableColumn": "ESTIMATED_REVENUE"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "probability",
+      "tableColumn": "PROBABILITY"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "strategyUUID",
+      "tableColumn": "STRATEGY_ID",
+      "useAsForeignKey": "true",
+      "foreignKeyTable": "STRATEGY",
+      "foreignKeyColumn": "src_strategy_id",
+      "foreignKeySelectColumn": "strategy_id"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "currencyCodeUUID",
+      "tableColumn": "CURRENCY_ID",
+      "useAsForeignKey": "true",
+      "foreignKeyTable": "CURRENCY",
+      "foreignKeyColumn": "crm_currency_id",
+      "foreignKeySelectColumn": "currency_id"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "countryUUID",
+      "tableColumn": "COUNTRY_ID",
+      "useAsForeignKey": "true",
+      "foreignKeyTable": "COUNTRY",
+      "foreignKeyColumn": "crm_country_id",
+      "foreignKeySelectColumn": "country_id"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "contactUUID",
+      "tableColumn": "CONTACT_ID",
+      "useAsForeignKey": "true",
+      "foreignKeyTable": "CONTACT",
+      "foreignKeyColumn": "crm_contact_id",
+      "foreignKeySelectColumn": "contact_id"
+    }
+  ],
+  "feedDomain": "crm",
+  "feedName": "crm-opportunity",
+  "filePattern": "crm-opportunity",
+  "fileType": "json",
+  "identifierAttributes": [
+    "OPPORTUNITY_ID"
+  ],
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/opportunity",
+  "separatorCharacter": "N/A",
+  "targetRDSTable": "OPPORTUNITY"
+}

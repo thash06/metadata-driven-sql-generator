@@ -1,0 +1,170 @@
+{
+  "action": "create",
+  "feedName": "crm-relationship",
+  "feedDomain": "crm",
+  "active": "true",
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/relationship",
+  "targetRDSTable": "RELATIONSHIP",
+  "filePattern": "crm-relationship",
+  "fileType": "json",
+  "separatorCharacter": "N/A",
+  "identifierAttributes": [
+    "RELATIONSHIP_ID"
+  ],
+  "columnList": [
+    {
+      "feedAttribute": "vehicleType",
+      "tableColumn": "VEHICLE_TYPE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "marketSegment",
+      "tableColumn": "MARKET_SEGMENT",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "id",
+      "tableColumn": "CRM_RELATIONSHIP_ID",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "name",
+      "tableColumn": "RELATIONSHIP_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "relationshipType",
+      "tableColumn": "RELATIONSHIP_TYPE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "team",
+      "tableColumn": "TEAM",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "serviceRequirement",
+      "tableColumn": "SERVICE_REQUIREMENT",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "servicedRelationship",
+      "tableColumn": "SERVICE_RELATIONSHIP",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "repOrRMCode",
+      "tableColumn": "REPRESENTATIVE_OR_RM_CD",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "consultantRepCode",
+      "tableColumn": "CONSULTANT_REP_CD",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "associateCode",
+      "tableColumn": "ASSOCIATE_CODE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "primaryConsultantCode",
+      "tableColumn": "PRIMARY_CONSULTANT_CD",
+      "captureHistory": "true"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "primaryConsultantCodeUUID",
+      "tableColumn": "primary_consultant_id",
+      "useAsForeignKey": "false",
+      "foreignKeyTable": "CONSULTANT",
+      "foreignKeyColumn": "crm_consultant_id",
+      "foreignKeySelectColumn": "consultant_id"
+    },
+    {
+      "feedAttribute": "secondaryConsultantCode",
+      "tableColumn": "SECONDARY_CONSULTANT_CD",
+      "captureHistory": "true"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "secondaryConsultantCodeUUID",
+      "tableColumn": "secondary_consultant_id",
+      "useAsForeignKey": "false",
+      "foreignKeyTable": "CONSULTANT",
+      "foreignKeyColumn": "crm_consultant_id",
+      "foreignKeySelectColumn": "consultant_id"
+    },
+    {
+      "feedAttribute": "salesRepCode",
+      "tableColumn": "SALES_REP_CD",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "repOrRMName",
+      "tableColumn": "REPRESENTATIVE_OR_RM_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "consultantRepName",
+      "tableColumn": "CONSULTANT_REP_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "associateName",
+      "tableColumn": "ASSOCIATE_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "primaryConsultantName",
+      "tableColumn": "PRIMARY_CONSULTANT_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "secondaryConsultantName",
+      "tableColumn": "SECONDARY_CONSULTANT_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "salesRepName",
+      "tableColumn": "SALES_REP_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "clientTier",
+      "tableColumn": "CLIENT_TIER",
+      "captureHistory": "true"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "midRegionId",
+      "tableColumn": "CRM_MID_REGION_ID"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "broadRegionId",
+      "tableColumn": "CRM_BROAD_REGION_ID"
+    },
+    {
+      "captureHistory": "false",
+      "feedAttribute": "regionId",
+      "tableColumn": "CRM_REGION_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "midRegion",
+      "tableColumn": "MID_REGION_NAME"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "broadRegion",
+      "tableColumn": "BROAD_REGION_NAME"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "region",
+      "tableColumn": "REGION_NAME"
+    }
+  ]
+}

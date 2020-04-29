@@ -1,0 +1,82 @@
+{
+  "action": "create",
+  "feedName": "crm-contact",
+  "feedDomain": "crm",
+  "active": "true",
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/contact",
+  "targetRDSTable": "CONTACT",
+  "filePattern": "crm-contact",
+  "fileType": "json",
+  "separatorCharacter": "N/A",
+  "identifierAttributes": [
+    "CONTACT_ID"
+  ],
+  "columnList": [
+    {
+      "feedAttribute": "contactUUID",
+      "tableColumn": "CRM_CONTACT_ID",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactCode",
+      "tableColumn": "CONTACT_CODE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactType",
+      "tableColumn": "CONTACT_TYPE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactRole",
+      "tableColumn": "CONTACT_ROLE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "jobTitle",
+      "tableColumn": "CONTACT_JOB_TITLE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactName",
+      "tableColumn": "CONTACT_NAME",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactEmail",
+      "tableColumn": "CONTACT_EMAIL",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactPhoneDirect",
+      "tableColumn": "CONTACT_PHONE_DIRECT",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactPhoneFax",
+      "tableColumn": "CONTACT_PHONE_FAX",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "contactAddress",
+      "tableColumn": "CONTACT_ADDRESS1",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "city",
+      "tableColumn": "CITY",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "state",
+      "tableColumn": "STATE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "zipcode",
+      "tableColumn": "POSTAL_CODE",
+      "captureHistory": "true"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "active": "true",
+  "columnList": [
+    {
+      "captureHistory": "true",
+      "feedAttribute": "uuid",
+      "tableColumn": "CRM_REGION_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "value",
+      "tableColumn": "REGION_NAME"
+    }
+  ],
+  "feedDomain": "crm",
+  "feedName": "crm-region",
+  "filePattern": "crm-region",
+  "fileType": "json",
+  "identifierAttributes": [
+    "REGION_ID"
+  ],
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/region",
+  "separatorCharacter": "N/A",
+  "targetRDSTable": "REGION"
+}

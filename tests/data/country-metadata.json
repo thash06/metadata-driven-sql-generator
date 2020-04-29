@@ -1,0 +1,26 @@
+{
+  "active": "true",
+  "columnList": [
+    {
+      "captureHistory": "true",
+      "feedAttribute": "uuid",
+      "tableColumn": "CRM_COUNTRY_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "value",
+      "tableColumn": "COUNTRY_NAME"
+    }
+  ],
+  "feedDomain": "crm",
+  "feedName": "crm-country",
+  "filePattern": "crm-country",
+  "fileType": "json",
+  "identifierAttributes": [
+    "COUNTRY_ID"
+  ],
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/country",
+  "separatorCharacter": "N/A",
+  "targetRDSTable": "COUNTRY"
+}

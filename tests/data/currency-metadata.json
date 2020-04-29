@@ -1,0 +1,28 @@
+{
+  "active": "true",
+  "columnList": [
+    {
+      "captureHistory": "true",
+      "feedAttribute": "uuid",
+      "tableColumn": "CRM_CURRENCY_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "value",
+      "tableColumn": "CURRENCY_CODE"
+    }
+  ],
+  "feedDomain": "crm",
+  "feedName": "crm-currency",
+  "filePattern": "crm-currency",
+  "fileType": "json",
+  "identifierAttributes": [
+    "CURRENCY_ID"
+  ],
+  "RIConstraint": [
+  ],
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/currency",
+  "separatorCharacter": "N/A",
+  "targetRDSTable": "CURRENCY"
+}

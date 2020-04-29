@@ -1,0 +1,80 @@
+[
+  {
+    "tableName": "region",
+    "uuid": "d9bdb598-4315-4ce9-b2bf-e9276e033b87",
+    "value": "Europe",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "7da42ac6-41a3-48b7-b044-b852aeb50518",
+    "value": "xAsia",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "dd28713a-809f-41d0-92cf-903d038055fc",
+    "value": "Canada",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "404d283e-c9b8-4587-a43c-399ad62732db",
+    "value": "xAsia-Pacific",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "0a1bfc77-ed62-4f76-a9c1-caa1b39dfaaa",
+    "value": "Middle East",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "b6a88381-c346-4a87-8a30-c3835f0de35e",
+    "value": "Africa",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "aae5bd0f-4295-44fd-b93c-b87b27606d1f",
+    "value": "Japan",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "01143eaf-06f6-4d50-aea9-225569864c02",
+    "value": "Australia",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "1c266dd3-7d88-4063-ad95-48f674df80a2",
+    "value": "LatAM",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "d631c66c-eb8a-4aa2-b8b3-b1385ff58e39",
+    "value": "US",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "12032c1e-81f5-4482-97fe-d1d54f9c83ca",
+    "value": "xAmericas",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "d3a7a718-6234-46e3-9bcb-19bcc7270ea5",
+    "value": "xEMEA",
+    "description": null
+  },
+  {
+    "tableName": "region",
+    "uuid": "a368b3c5-0990-43c4-a89a-67b5099bc73b",
+    "value": "Asia ex Japan",
+    "description": null
+  }
+]

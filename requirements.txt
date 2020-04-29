@@ -1,0 +1,7 @@
+requests
+boto3
+botocore
+pytest
+pandas
+snowflake
+snowflake.connector

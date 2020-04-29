@@ -1,0 +1,37 @@
+{
+  "action": "create",
+  "feedName": "crm-consultant",
+  "feedDomain": "crm",
+  "active": "true",
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/ consultant",
+  "targetRDSTable": "CONSULTANT",
+  "filePattern": "crm-consultant",
+  "fileType": "json",
+  "separatorCharacter": "N/A",
+  "identifierAttributes": [
+    "CONSULTANT_ID"
+  ],
+  "columnList": [
+    {
+      "feedAttribute": "uuid",
+      "tableColumn": "CRM_CONSULTANT_ID",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "value",
+      "tableColumn": "CONSULTANT_CODE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "title",
+      "tableColumn": "TITLE",
+      "captureHistory": "true"
+    },
+    {
+      "feedAttribute": "fullName",
+      "tableColumn": "CONSULTANT_NAME",
+      "captureHistory": "true"
+    }
+  ]
+}

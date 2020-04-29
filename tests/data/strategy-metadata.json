@@ -1,0 +1,31 @@
+{
+  "active": "true",
+  "columnList": [
+    {
+      "captureHistory": "true",
+      "feedAttribute": "uuid",
+      "tableColumn": "SRC_STRATEGY_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "value",
+      "tableColumn": "STRATEGY_TYPE"
+    },
+    {
+      "captureHistory": "false",
+      "tableColumn": "source",
+      "value": "Satuit"
+    }
+  ],
+  "feedDomain": "crm",
+  "feedName": "crm-strategy",
+  "filePattern": "crm- strategy ",
+  "fileType": "json",
+  "identifierAttributes": [
+    "STRATEGY_ID"
+  ],
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/strategy ",
+  "separatorCharacter": "N/A",
+  "targetRDSTable": "STRATEGY"
+}

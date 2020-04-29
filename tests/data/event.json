@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "active": "true",
+  "columnList": [
+    {
+      "captureHistory": "true",
+      "feedAttribute": "uuid",
+      "tableColumn": "CRM_BROAD_REGION_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "value",
+      "tableColumn": "BROAD_REGION_NAME"
+    }
+  ],
+  "feedDomain": "crm",
+  "feedName": "crm-broad-region",
+  "filePattern": "crm-broad-region",
+  "fileType": "json",
+  "identifierAttributes": [
+    "BROAD_REGION_ID"
+  ],
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/broadregion",
+  "separatorCharacter": "N/A",
+  "targetRDSTable": "EDW_SANDBOX_DB.EDW_SANDBOX_RDS.BROAD_REGION"
+}

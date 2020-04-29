@@ -1,0 +1,27 @@
+{
+  "action": "create",
+  "active": "true",
+  "columnList": [
+    {
+      "captureHistory": "true",
+      "feedAttribute": "uuid",
+      "tableColumn": "CRM_MID_REGION_ID"
+    },
+    {
+      "captureHistory": "true",
+      "feedAttribute": "value",
+      "tableColumn": "MID_REGION_NAME"
+    }
+  ],
+  "feedDomain": "crm",
+  "feedName": "crm-mid-region",
+  "filePattern": "crm-mid-region",
+  "fileType": "json",
+  "identifierAttributes": [
+    "MID_REGION_ID"
+  ],
+  "S3BucketName": "<TBD>",
+  "S3PathPrefix": "/crm/midregion",
+  "separatorCharacter": "N/A",
+  "targetRDSTable": "MID_REGION"
+}
